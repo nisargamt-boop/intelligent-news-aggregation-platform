@@ -1,29 +1,29 @@
-# News Aggregator (local dev)
+# Intelligent News Aggregation Platform
 
-This is a local development copy of the News Aggregator project.
+## 📌 Overview
+This mini project is a News Aggregation and Analysis Platform developed using Python and Django. The system collects news articles from multiple sources, organizes them into categories, and performs basic sentiment analysis to generate meaningful insights.
 
-How to run (PowerShell):
+## 🎯 Objectives
+- Aggregate news from multiple sources
+- Categorize news articles
+- Perform sentiment analysis
+- Display structured news content
 
-1. Activate the virtualenv:
+## 🛠️ Tech Stack
+- Python
+- Django
+- SQLite
+- NLP (Sentiment Analysis)
+- HTML/CSS
 
-   . .\mmm\Scripts\Activate.ps1
+## 🚀 Features
+- News collection and storage
+- Category-wise news display
+- Sentiment classification
+- Web-based interface
 
-2. Run migrations (only if needed):
+## ▶️ How to Run
 
-   python manage.py migrate
+```bash
+python manage.py runserver
 
-3. Start the dev server:
-
-   python manage.py runserver
-
-4. Open the admin interface in your browser:
-
-   http://127.0.0.1:8000/admin/
-
-Create a superuser (if you don't have one):
-
-   python manage.py createsuperuser
-
-Notes:
-- The admin uses the `Article.sources` ManyToMany to show which sources an article is associated with.
-- This README is minimal; expand as needed for deployment or tests.
