@@ -1,0 +1,6 @@
+- [x] Modify fetch_news.py to detect NewsSource from article URL domain
+- [x] Add helper functions for domain extraction and name formatting
+- [x] Update article creation logic to assign correct source
+- [x] Handle existing articles by updating their sources if needed
+- [x] Add debug messages for source linking
+- [ ] Test the changes

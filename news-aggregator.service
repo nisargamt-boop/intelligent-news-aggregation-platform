@@ -1,0 +1,13 @@
+[Unit]
+Description=News Aggregator Gunicorn Service
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/path/to/your/project
+Environment="DJANGO_SETTINGS_MODULE=news_aggregator.settings_prod"
+ExecStart=/path/to/your/venv/bin/gunicorn --config gunicorn.conf.py news_aggregator.wsgi:application
+
+[Install]
+WantedBy=multi-user.target
