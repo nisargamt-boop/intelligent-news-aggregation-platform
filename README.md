@@ -44,7 +44,8 @@ Simple and user-friendly interface
 
 Clone the repository:
 
-git clone https://github.com/your-username/intelligent-news-aggregation-platform.git
+git clone https://github.com/nisargamt-boop/intelligent-news-aggregation-platform.git
+
 
 
 Navigate to the project folder:
@@ -69,3 +70,4 @@ http://127.0.0.1:8000/
 📂 Project Type
 
 Mini Project – Web Application Development using Django
+
